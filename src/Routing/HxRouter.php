@@ -1,10 +1,10 @@
 <?php
 
-namespace YourVendor\LaravelHx\Routing;
+namespace Antaeus365\LaravelHx\Routing;
 
 use Illuminate\Routing\Router;
-use YourVendor\LaravelHx\HxManager;
-use YourVendor\LaravelHx\Http\Controllers\HxController;
+use Antaeus365\LaravelHx\HxManager;
+use Antaeus365\LaravelHx\Http\Controllers\HxController;
 
 class HxRouter
 {

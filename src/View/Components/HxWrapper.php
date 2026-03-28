@@ -1,9 +1,9 @@
 <?php
 
-namespace YourVendor\LaravelHx\View\Components;
+namespace Antaeus365\LaravelHx\View\Components;
 
 use Illuminate\View\Component;
-use YourVendor\LaravelHx\HxContext;
+use Antaeus365\LaravelHx\HxContext;
 
 class HxWrapper extends Component
 {

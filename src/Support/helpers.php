@@ -1,8 +1,8 @@
 <?php
 
-use YourVendor\LaravelHx\HxManager;
-use YourVendor\LaravelHx\HxContext;
-use YourVendor\LaravelHx\Routing\HxRouter;
+use Antaeus365\LaravelHx\HxManager;
+use Antaeus365\LaravelHx\HxContext;
+use Antaeus365\LaravelHx\Routing\HxRouter;
 
 if (!function_exists('hx')) {
     /**

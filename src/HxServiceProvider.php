@@ -1,10 +1,10 @@
 <?php
 
-namespace YourVendor\LaravelHx;
+namespace Antaeus365\LaravelHx;
 
 use Illuminate\Support\ServiceProvider;
-use YourVendor\LaravelHx\Routing\HxRouter;
-use YourVendor\LaravelHx\Support\BladeDirectives;
+use Antaeus365\LaravelHx\Routing\HxRouter;
+use Antaeus365\LaravelHx\Support\BladeDirectives;
 
 class HxServiceProvider extends ServiceProvider
 {
@@ -65,6 +65,6 @@ class HxServiceProvider extends ServiceProvider
      */
     protected function registerMiddleware(): void
     {
-        $this->app['router']->aliasMiddleware('hx', \YourVendor\LaravelHx\Http\Middleware\HxMiddleware::class);
+        $this->app['router']->aliasMiddleware('hx', \Antaeus365\LaravelHx\Http\Middleware\HxMiddleware::class);
     }
 }

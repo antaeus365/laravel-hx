@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\LaravelHx;
+namespace Antaeus365\LaravelHx;
 
 class HxContext
 {

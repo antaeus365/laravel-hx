@@ -1,9 +1,9 @@
 <?php
 
-namespace YourVendor\LaravelHx;
+namespace Antaeus365\LaravelHx;
 
 use Illuminate\View\View;
-use YourVendor\LaravelHx\Exceptions\HxException;
+use Antaeus365\LaravelHx\Exceptions\HxException;
 
 abstract class HxComponent
 {

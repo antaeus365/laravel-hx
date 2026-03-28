@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\LaravelHx\Support;
+namespace Antaeus365\LaravelHx\Support;
 
 use Illuminate\Support\Facades\Blade;
 
@@ -27,6 +27,6 @@ class BladeDirectives
         });
 
         // 组件包装器
-        Blade::component('hx-wrapper', \YourVendor\LaravelHx\View\Components\HxWrapper::class);
+        Blade::component('hx-wrapper', \Antaeus365\LaravelHx\View\Components\HxWrapper::class);
     }
 }

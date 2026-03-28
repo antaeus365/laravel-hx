@@ -1,9 +1,9 @@
 <?php
 
-namespace YourVendor\LaravelHx;
+namespace Antaeus365\LaravelHx;
 
 use Illuminate\Contracts\Container\Container;
-use YourVendor\LaravelHx\Routing\HxRouter;
+use Antaeus365\LaravelHx\Routing\HxRouter;
 
 class HxManager
 {

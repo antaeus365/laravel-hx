@@ -14,13 +14,13 @@
 ### 1. 安装
 
 ```bash
-composer require your-vendor/laravel-hx
+composer require antaeus365/laravel-hx
 ```
 
 ### 2. 发布配置
 
 ```bash
-php artisan vendor:publish --provider="YourVendor\LaravelHx\HxServiceProvider"
+php artisan vendor:publish --provider="Antaeus365\LaravelHx\HxServiceProvider"
 ```
 
 ### 3. 创建第一个组件
@@ -29,7 +29,7 @@ php artisan vendor:publish --provider="YourVendor\LaravelHx\HxServiceProvider"
 // app/Hx/Components/UserProfileComponent.php
 namespace App\Hx\Components;
 
-use YourVendor\LaravelHx\HxComponent;
+use Antaeus365\LaravelHx\HxComponent;
 
 class UserProfileComponent extends HxComponent
 {

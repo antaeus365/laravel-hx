@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\LaravelHx\Exceptions;
+namespace Antaeus365\LaravelHx\Exceptions;
 
 use Exception;
 

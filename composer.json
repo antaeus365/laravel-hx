@@ -1,5 +1,5 @@
 {
-    "name": "your-vendor/laravel-hx",
+    "name": "antaeus365/laravel-hx",
     "description": "声明式、服务端驱动的HTMX UI框架 for Laravel",
     "type": "library",
     "license": "MIT",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "YourVendor\\LaravelHx\\": "src/"
+            "Antaeus365\\LaravelHx\\": "src/"
         },
         "files": [
             "src/Support/helpers.php"
@@ -30,16 +30,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "YourVendor\\LaravelHx\\Tests\\": "tests/"
+            "Antaeus365\\LaravelHx\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "YourVendor\\LaravelHx\\HxServiceProvider"
+                "Antaeus365\\LaravelHx\\HxServiceProvider"
             ],
             "aliases": {
-                "Hx": "YourVendor\\LaravelHx\\Support\\HxFacade"
+                "Hx": "Antaeus365\\LaravelHx\\Support\\HxFacade"
             }
         }
     },

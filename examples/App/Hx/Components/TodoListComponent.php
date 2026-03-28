@@ -2,7 +2,7 @@
 
 namespace App\Hx\Components;
 
-use YourVendor\LaravelHx\HxComponent;
+use Antaeus365\LaravelHx\HxComponent;
 use Illuminate\Validation\Rule;
 
 class TodoListComponent extends HxComponent

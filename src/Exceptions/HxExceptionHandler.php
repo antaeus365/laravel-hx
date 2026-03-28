@@ -1,11 +1,11 @@
 <?php
 
-namespace YourVendor\LaravelHx\Exceptions;
+namespace Antaeus365\LaravelHx\Exceptions;
 
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
-use YourVendor\LaravelHx\HxManager;
+use Antaeus365\LaravelHx\HxManager;
 
 class HxExceptionHandler
 {

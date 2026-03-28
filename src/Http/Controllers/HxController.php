@@ -1,12 +1,12 @@
 <?php
 
-namespace YourVendor\LaravelHx\Http\Controllers;
+namespace Antaeus365\LaravelHx\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use YourVendor\LaravelHx\HxManager;
-use YourVendor\LaravelHx\HxContext;
-use YourVendor\LaravelHx\Exceptions\HxException;
+use Antaeus365\LaravelHx\HxManager;
+use Antaeus365\LaravelHx\HxContext;
+use Antaeus365\LaravelHx\Exceptions\HxException;
 
 class HxController extends Controller
 {

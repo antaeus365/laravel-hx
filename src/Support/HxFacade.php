@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\LaravelHx\Support;
+namespace Antaeus365\LaravelHx\Support;
 
 use Illuminate\Support\Facades\Facade;
 

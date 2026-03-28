@@ -1,10 +1,10 @@
 <?php
 
-namespace YourVendor\LaravelHx\Http\Middleware;
+namespace Antaeus365\LaravelHx\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use YourVendor\LaravelHx\HxManager;
+use Antaeus365\LaravelHx\HxManager;
 
 class HxMiddleware
 {
